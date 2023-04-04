@@ -1,0 +1,68 @@
+filename	sample_id	sample_type	species	plant_part
+20230323T140602Z_ED_dbgi_000909_01.mzML	dbgi_000909_01	sample	Cotinus coggygria	twigs
+20230323T140602Z_ED_dbgi_001015_01.mzML	dbgi_001015_01	sample	Mangifera indica	leaves
+20230323T140602Z_ED_dbgi_000914_01.mzML	dbgi_000914_01	sample	Pistacia vera	twigs
+20230323T140602Z_ED_dbgi_000985_01.mzML	dbgi_000985_01	sample	Schinus molle	twigs
+20230323T140602Z_ED_dbgi_001009_01.mzML	dbgi_001009_01	sample	Schinus molle	leaves
+20230323T140602Z_ED_dbgi_001088_01.mzML	dbgi_001088_01	sample	Commiphora abyssinica	twigs
+20230323T140602Z_ED_dbgi_001085_01.mzML	dbgi_001085_01	sample	Khaya senegalensis	leaves
+20230323T140602Z_ED_dbgi_001084_01.mzML	dbgi_001084_01	sample	Citrus limon	leaves
+20230323T140602Z_ED_dbgi_001086_01.mzML	dbgi_001086_01	sample	Citrus microcarpa	leaves
+20230323T140602Z_ED_dbgi_001087_01.mzML	dbgi_001087_01	sample	Citrus reticulata	leaves
+20230323T140602Z_ED_dbgi_001089_01.mzML	dbgi_001089_01	sample	Citrus sinensis	leaves
+20230323T140602Z_ED_dbgi_001083_01.mzML	dbgi_001083_01	sample	Bergera koenigii	leaves
+20230323T140602Z_ED_dbgi_001110_01.mzML	dbgi_001110_01	sample	Ruta chalepensis	leaves
+20230323T140602Z_ED_dbgi_001109_01.mzML	dbgi_001109_01	sample	Ruta graveolens	leaves
+20230323T140602Z_ED_dbgi_001098_01.mzML	dbgi_001098_01	sample	Acer buergerianum	twigs
+20230323T140602Z_ED_dbgi_001104_01.mzML	dbgi_001104_01	sample	Acer campestre	twigs
+20230323T140602Z_ED_dbgi_001093_01.mzML	dbgi_001093_01	sample	Acer capillipes	twigs
+20230323T140602Z_ED_dbgi_001103_01.mzML	dbgi_001103_01	sample	Acer cappadocicum	twigs
+20230323T140602Z_ED_dbgi_001108_01.mzML	dbgi_001108_01	sample	Acer carpinifolium	twigs
+20230323T140602Z_ED_dbgi_001092_01.mzML	dbgi_001092_01	sample	Acer griseum	twigs
+20230323T140602Z_ED_dbgi_001099_01.mzML	dbgi_001099_01	sample	Acer hyrcanum	twigs
+20230323T140602Z_ED_dbgi_001097_01.mzML	dbgi_001097_01	sample	Acer japonicum	twigs
+20230323T140602Z_ED_dbgi_001102_01.mzML	dbgi_001102_01	sample	Acer pictum subsp. mono	twigs
+20230323T140602Z_ED_dbgi_001107_01.mzML	dbgi_001107_01	sample	Acer monspessulanum	twigs
+20230323T140602Z_ED_dbgi_001100_01.mzML	dbgi_001100_01	sample	Acer negundo	twigs
+20230323T140602Z_ED_dbgi_001091_01.mzML	dbgi_001091_01	sample	Acer opalus	twigs
+20230323T140602Z_ED_dbgi_001095_01.mzML	dbgi_001095_01	sample	Acer palmatum	twigs
+20230323T140602Z_ED_dbgi_001094_01.mzML	dbgi_001094_01	sample	Acer rufinerve	twigs
+20230323T140602Z_ED_dbgi_001096_01.mzML	dbgi_001096_01	sample	Acer saccharinum	twigs
+20230323T140602Z_ED_dbgi_001101_01.mzML	dbgi_001101_01	sample	Acer saccharum	twigs
+20230323T140602Z_ED_dbgi_001106_01.mzML	dbgi_001106_01	sample	Acer sempervirens	twigs
+20230323T140602Z_ED_dbgi_001090_01.mzML	dbgi_001090_01	sample	Quassia amara	leaves
+20230323T140602Z_ED_STG-01-001_01.mzML	STG-01-001_01	sample	Anacardium occidentale	leaves
+20230323T140602Z_ED_STG-01-002_01.mzML	STG-01-002_01	sample	Anacardium occidentale	stem bark
+20230323T140602Z_ED_STG-01-003_01.mzML	STG-01-003_01	sample	Anacardium occidentale	root bark
+20230323T140602Z_ED_STG-01-004_01.mzML	STG-01-004_01	sample	Haemotostaphis barteri	leaves
+20230323T140602Z_ED_STG-01-005_01.mzML	STG-01-005_01	sample	Haemotostaphis barteri	stem bark
+20230323T140602Z_ED_STG-01-006_01.mzML	STG-01-006_01	sample	Haemotostaphis barteri	root bark
+20230323T140602Z_ED_STG-01-007_01.mzML	STG-01-007_01	sample	Lannea barteri	leaves
+20230323T140602Z_ED_STG-01-008_01.mzML	STG-01-008_01	sample	Lannea barteri	stem bark
+20230323T140602Z_ED_STG-01-009_01.mzML	STG-01-009_01	sample	Lannea barteri	root bark
+20230323T140602Z_ED_STG-01-010_01.mzML	STG-01-010_01	sample	Mangifera indica	leaves
+20230323T140602Z_ED_STG-01-011_01.mzML	STG-01-011_01	sample	Mangifera indica	stem bark
+20230323T140602Z_ED_STG-01-012_01.mzML	STG-01-012_01	sample	Mangifera indica	root bark
+20230323T140602Z_ED_STG-01-013_01.mzML	STG-01-013_01	sample	Pseudospondias microcarpa	leaves
+20230323T140602Z_ED_STG-01-014_01.mzML	STG-01-014_01	sample	Pseudospondias microcarpa	stem bark
+20230323T140602Z_ED_STG-01-015_01.mzML	STG-01-015_01	sample	Pseudospondias microcarpa	root bark
+20230323T140602Z_ED_STG-01-016_01.mzML	STG-01-016_01	sample	Pseudospondias microcarpa	fruits
+20230323T140602Z_ED_STG-01-017_01.mzML	STG-01-017_01	sample	Sclerocarya birrea	leaves
+20230323T140602Z_ED_STG-01-018_01.mzML	STG-01-018_01	sample	Sclerocarya birrea	stem bark
+20230323T140602Z_ED_STG-01-019_01.mzML	STG-01-019_01	sample	Sclerocarya birrea	root bark
+20230323T140602Z_ED_STG-01-020_01.mzML	STG-01-020_01	sample	Spondias dulcis	leaves
+20230323T140602Z_ED_STG-01-021_01.mzML	STG-01-021_01	sample	Spondias dulcis	stem bark
+20230323T140602Z_ED_STG-01-022_01.mzML	STG-01-022_01	sample	Spondias dulcis	root bark
+20230323T140602Z_ED_STG-01-023_01.mzML	STG-01-023_01	sample	Aspillia africana	leaves
+20230323T140602Z_ED_STG-01-024_01.mzML	STG-01-024_01	sample	Aspillia africana	roots
+20230323T140602Z_ED_QC_MIX_00.mzML	QC_MIX_00	QC	na	na
+20230323T140602Z_ED_QC_MIX_01.mzML	QC_MIX_01	QC	na	na
+20230323T140602Z_ED_QC_MIX_02.mzML	QC_MIX_02	QC	na	na
+20230323T140602Z_ED_QC_MIX_03.mzML	QC_MIX_03	QC	na	na
+20230323T140602Z_ED_QC_MIX_04.mzML	QC_MIX_04	QC	na	na
+20230323T140602Z_ED_QC_MIX_05.mzML	QC_MIX_05	QC	na	na
+20230323T140602Z_ED_QC_MIX_06.mzML	QC_MIX_06	QC	na	na
+20230323T140602Z_ED_QC_MIX_07.mzML	QC_MIX_07	QC	na	na
+20230323T140602Z_ED_Blank2_02.mzML	Blank2_02	BK	na	na
+20230323T140602Z_ED_Blank3_01.mzML	Blank3_01	BK	na	na
+20230323T140602Z_ED_Blank3_02.mzML	Blank3_02	BK	na	na
