@@ -1,0 +1,82 @@
+mapp_project : dbgi_sapindales
+mapp_batch : dbgi_batch_000001
+met_annot_enhancer_folder : dbgi_batch_000001
+gnps_job_id : 86b3b9488fbb46bf9aad708106ff0a27
+
+dataset_experiment : 
+  name: "dbgi_batch_000001 Sapindales LCMS metabolomics dataset"
+  description: "Stéphanie - Sapindales DBGI"
+
+actions:
+  scale_data : TRUE
+  filter_sample_type : FALSE
+  filter_sample_metadata_one : FALSE
+  filter_sample_metadata_two : FALSE
+  filter_variable_metadata_one : FALSE
+  filter_variable_metadata_two : FALSE
+  filter_features : TRUE
+  run_PLSDA : TRUE
+
+filter_sample_type :
+  mode : 'include'
+  factor_name : 'sample_type'
+  levels : 'sample' 
+
+filter_sample_metadata_one :
+  mode : 'exclude'
+  factor_name : 'period'
+  levels : 'inter'
+
+filter_sample_metadata_two :
+  mode : 'include'
+  factor_name : 'period'
+  levels : 'night'
+
+
+filter_variable_metadata_one :
+  mode : 'include'
+  factor_name : 'NPC.pathway_canopus'
+  levels : 'Fatty acids' # E.g. One of "Alkaloids", "Amino acids and Peptides", "Terpenoids", "Fatty acids", "Carbohydrates", "Polyketides", "Shikimates and Phenylpropanoids" for levels if you use factor_name : 'NPC.pathway_canopus'
+
+filter_variable_metadata_two :
+  mode : 'include'
+  factor_name : 'NPC.pathway_canopus'
+  levels : 'Fatty acids' 
+
+paths:
+  docs: '/Users/pma/Dropbox/git_repos/COMMONS_Lab/DBGI/dbgi-sapindales/docs'
+
+polarity: "pos"
+ms_files_extension: ".mzML"
+
+filenames:
+  sirius_annotations: compound_identifications.tsv
+  canopus_annotations: canopus_compound_summary.tsv
+  gnps_graphml: 5763a3e1c17147af9377025f3d462dde.graphml
+
+colnames:
+  to_combine: 
+     - "species"
+     - "plant_part"
+ 
+
+  to_output:
+     - "species"
+     - "plant_part"
+     
+filters:
+  metadata_variable: "species" # This variable will be used throughout the whole script
+
+boxplot:
+  topN : 16 # N for TopN boxplots to output 
+
+posthoc:
+  p_value: 0.05 # p-Value for filtering th RF inputs
+
+heatmap:
+  topN : 100 # N for TopN features to output in the heatmap
+
+
+feature_to_filter :
+    - '3298_214.19_6.5'
+    - '3311_252.18_4'

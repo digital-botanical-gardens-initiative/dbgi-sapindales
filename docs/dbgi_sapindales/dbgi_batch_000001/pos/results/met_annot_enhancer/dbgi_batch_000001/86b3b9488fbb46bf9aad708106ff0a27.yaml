@@ -1,0 +1,52 @@
+filtering_params:
+  lib_to_keep: ISDB|MS1_match
+  minimal_chemo_score: 2
+  minimal_taxo_score: 6
+  minimal_total_score: 8
+metadata_params:
+  organism_header: organism_name
+options:
+  do_chembl_match: true
+  do_spectral_match: false
+  do_taxo_resolving: true
+  download_gnps_job: false
+  keep_lowest_taxon: false
+  output_plots: true
+paths:
+  adducts_neg_path: data_loc/230106_frozen_metadata/230106_frozen_metadata_adducts_neg.tsv.gz
+  adducts_pos_path: data_loc/230106_frozen_metadata/230106_frozen_metadata_adducts_pos.tsv.gz
+  db_file_path: /Users/pma/01_large_files/mgf/isdb_pos.mgf
+  gnps_job_id: 86b3b9488fbb46bf9aad708106ff0a27
+  input_folder: /Users/pma/Dropbox/git_repos/COMMONS_Lab/DBGI/dbgi-sapindales/dbgi_batch_000001/results/met_annot_enhancer
+  metadata_path: /Users/pma/01_large_files/lotus/230106_frozen_metadata.csv
+  output_folder: /Users/pma/Dropbox/git_repos/COMMONS_Lab/DBGI/dbgi-sapindales/dbgi_batch_000001/results/met_annot_enhancer
+  project_name: dbgi_batch_000001
+plotting_params:
+  drop_blanks: true
+  drop_pattern: ^bk$|^QC$|^media$|^nd$|^ND$|^ND$|^Blank$|^BK$
+  multi_plot: false
+repond_params:
+  Top_N_Sample: 2
+  chemo_weight: 0.5
+  file_extension: .mzML
+  min_score_chemo_ms1: 1
+  min_score_taxo_ms1: 6
+  msfile_suffix: ' Peak area'
+  msms_weight: 4
+  organism_header: species
+  polarity: pos
+  ppm_tol: 2
+  sampletype_header: sample_type
+  sampletype_value_bk: BK
+  sampletype_value_qc: QC
+  sampletype_value_sample: sample
+  taxo_weight: 1
+  top_N_chemical_consistency: 15
+  top_to_output: 1
+  use_post_taxo: true
+  var_one_header: sample_id
+spectral_match_params:
+  min_cos: 0.2
+  min_peaks: 6
+  msms_mz_tol: 0.01
+  parent_mz_tol: 0.01
